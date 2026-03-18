@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm install --prefer-offline)",
+      "Bash(sudo npm cache clean --force)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
